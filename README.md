@@ -64,5 +64,6 @@ Comecei como técnico de suporte em NOC e terminei construindo, sozinho, uma pla
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ramonyml-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ramonyml)
 [![Email](https://img.shields.io/badge/Email-ramonyml@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ramonyml@gmail.com)
+[![Email](https://img.shields.io/badge/Email-ramony__sep@live.com-0078D4?style=flat&logo=microsoftoutlook&logoColor=white)](mailto:ramony_sep@live.com)
 
 📍 Uberlândia, MG · Disponível para oportunidades presenciais, híbridas ou remotas
