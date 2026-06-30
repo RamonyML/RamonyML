@@ -60,6 +60,20 @@ Comecei como técnico de suporte em NOC e terminei construindo, sozinho, uma pla
 
 ---
 
+### ⚽ Bolão MZ NET — Copa do Mundo 2026 &nbsp; [→ repo](https://github.com/RamonyML/bolao-mznet)
+> Aplicação de bolão interno desenvolvida para os funcionários da MZ NET durante a Copa do Mundo 2026.
+
+- Ranking em tempo real com pódio animado, confetti e sistema de pontuação (5pts placar exato · 2pts resultado)
+- Sistema anti-fraude: detecção de duplicatas e marcação de palpites tardios
+- Reações nos palpites, card compartilhável gerado com `html2canvas`, álbum de figurinhas com mecânica de reveal
+- Painel admin autenticado via Firebase Auth para cadastro de resultados e toggles de funcionalidades
+- Regras de segurança granulares no Firestore (leitura pública · escrita autenticada)
+- Construído com **JavaScript puro (ES Modules)** sem framework — sem etapa de build
+
+`JavaScript` `Firebase` `Firestore` `Firebase Auth` `Bootstrap 5` `html2canvas` `ES Modules`
+
+---
+
 ## Tecnologias
 
 <div align="center">
