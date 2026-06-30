@@ -60,6 +60,15 @@ Comecei como técnico de suporte em NOC e terminei construindo, sozinho, uma pla
 
 ---
 
+## GitHub Stats
+
+<div align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=RamonyML&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RamonyML&layout=compact&theme=dark&hide_border=true&langs_count=6" />
+</div>
+
+---
+
 ## Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ramonyml-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ramonyml)
