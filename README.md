@@ -60,11 +60,10 @@ Comecei como técnico de suporte em NOC e terminei construindo, sozinho, uma pla
 
 ---
 
-## GitHub Stats
+## Tecnologias
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=RamonyML&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RamonyML&layout=compact&theme=dark&hide_border=true&langs_count=6" />
+  <img src="https://skillicons.dev/icons?i=react,ts,js,vite,firebase,nodejs,tailwind,materialui,git,github&theme=dark" />
 </div>
 
 ---
