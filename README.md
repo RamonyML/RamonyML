@@ -35,6 +35,35 @@ Comecei como técnico de suporte em NOC e terminei construindo, sozinho, uma pla
 
 ---
 
+### 🎵 Escala de Louvor — Gestão de Ministério de Igreja &nbsp; [→ repo](https://github.com/RamonyML/memorial-louvor)
+> Sistema para igrejas organizarem a escala do ministério de louvor: página pública com sincronização em tempo real e área administrativa completa.
+
+- Escala pública com **sincronização em tempo real** via Firestore — edição do admin aparece na hora pra quem está com a página aberta, sem refresh
+- Geração automática de cultos por domingo do mês, exportação da escala como imagem em **2 formatos** (paisagem e retrato) via `html2canvas`
+- Componentes de UI construídos do zero (dropdown customizado, fundo animado) — sem biblioteca de componentes
+- Autenticação via Firebase Auth e regras de segurança granulares no Firestore (leitura pública · escrita autenticada)
+- Design system próprio (paleta, tipografia, ícones dos instrumentos em SVG) · deploy via Firebase Hosting
+
+🔗 [memorial-louvor.web.app](https://memorial-louvor.web.app)
+
+`React 19` `TypeScript` `Vite` `Firebase` `Firestore` `Firebase Auth` `html2canvas`
+
+---
+
+### ⚽ Bolão MZ NET — Copa do Mundo 2026 &nbsp; [→ repo](https://github.com/RamonyML/bolao-mznet)
+> Aplicação de bolão interno desenvolvida para os funcionários da MZ NET durante a Copa do Mundo 2026.
+
+- Ranking em tempo real com pódio animado, confetti e sistema de pontuação (5pts placar exato · 2pts resultado)
+- Sistema anti-fraude: detecção de duplicatas e marcação de palpites tardios
+- Reações nos palpites, card compartilhável gerado com `html2canvas`, álbum de figurinhas com mecânica de reveal
+- Painel admin autenticado via Firebase Auth para cadastro de resultados e toggles de funcionalidades
+- Regras de segurança granulares no Firestore (leitura pública · escrita autenticada)
+- Construído com **JavaScript puro (ES Modules)** sem framework — sem etapa de build
+
+`JavaScript` `Firebase` `Firestore` `Firebase Auth` `Bootstrap 5` `html2canvas` `ES Modules`
+
+---
+
 ## Stack
 
 **Front-End**
@@ -57,20 +86,6 @@ Comecei como técnico de suporte em NOC e terminei construindo, sozinho, uma pla
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-
----
-
-### ⚽ Bolão MZ NET — Copa do Mundo 2026 &nbsp; [→ repo](https://github.com/RamonyML/bolao-mznet)
-> Aplicação de bolão interno desenvolvida para os funcionários da MZ NET durante a Copa do Mundo 2026.
-
-- Ranking em tempo real com pódio animado, confetti e sistema de pontuação (5pts placar exato · 2pts resultado)
-- Sistema anti-fraude: detecção de duplicatas e marcação de palpites tardios
-- Reações nos palpites, card compartilhável gerado com `html2canvas`, álbum de figurinhas com mecânica de reveal
-- Painel admin autenticado via Firebase Auth para cadastro de resultados e toggles de funcionalidades
-- Regras de segurança granulares no Firestore (leitura pública · escrita autenticada)
-- Construído com **JavaScript puro (ES Modules)** sem framework — sem etapa de build
-
-`JavaScript` `Firebase` `Firestore` `Firebase Auth` `Bootstrap 5` `html2canvas` `ES Modules`
 
 ---
 
