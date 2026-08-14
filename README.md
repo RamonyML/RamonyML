@@ -88,6 +88,40 @@ Estética de álbum de memórias artesanal: textura de papel, doodles desenhados
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### Escala de Louvor
+**Gestão de ministério de igreja**
+
+Escala pública que sincroniza em tempo real via Firestore: o que o admin edita aparece na hora pra quem está com a página aberta, sem refresh.
+
+`Tempo real` `Export em imagem` `Auth + regras`
+
+Geração automática de cultos por domingo do mês, exportação da escala como imagem em dois formatos e componentes de UI construídos do zero, sem biblioteca pronta.
+
+<sub>React 19 · TypeScript · Vite · Firestore · Firebase Auth · html2canvas</sub>
+
+[**memorial-louvor.web.app**](https://memorial-louvor.web.app) · [repositório](https://github.com/RamonyML/memorial-louvor)
+
+</td>
+<td width="50%" valign="top">
+
+### Bolão MZ NET
+**Aplicação interna · Copa 2026**
+
+Bolão construído para os funcionários da MZ NET, com ranking em tempo real, pódio animado e pontuação por placar exato ou resultado.
+
+`Zero build` `Anti-fraude` `Painel admin`
+
+Detecção de palpites duplicados e tardios, card compartilhável gerado no navegador e álbum de figurinhas. Feito em JavaScript puro com ES Modules, sem framework.
+
+<sub>JavaScript · Firestore · Firebase Auth · html2canvas</sub>
+
+[repositório](https://github.com/RamonyML/bolao-mznet)
+
+</td>
+</tr>
 </table>
 
 <br />
@@ -172,22 +206,6 @@ Templates de landing page prontos para publicar, em HTML + Tailwind via CDN, sem
 2019 — 2023    Análise e Desenvolvimento de Sistemas
                Uninter · ênfase em engenharia de software
 ```
-
-<br />
-
-## Atividade
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=RamonyML&show_icons=true&hide_border=false&border_color=27272a&bg_color=0a0a0a&title_color=22c55e&text_color=a3a3a3&icon_color=22c55e&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RamonyML&layout=compact&hide_border=false&border_color=27272a&bg_color=0a0a0a&title_color=22c55e&text_color=a3a3a3&langs_count=8" alt="Linguagens mais usadas" />
-</p>
-
-<br />
-
-## Outros repositórios públicos
-
-- [**memorial-louvor**](https://github.com/RamonyML/memorial-louvor) · escala de ministério de igreja com sincronização em tempo real via Firestore e exportação da escala como imagem
-- [**bolao-mznet**](https://github.com/RamonyML/bolao-mznet) · bolão interno da Copa 2026 em JavaScript puro, com ranking em tempo real e painel admin autenticado
 
 <br />
 
