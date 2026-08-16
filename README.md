@@ -62,13 +62,13 @@ Integração completa com o ERP MK Solutions: autenticação, busca de cliente p
 ### HT Glow Fit
 **Cliente real · moda fitness feminina**
 
-Site completo para uma marca 100% online, com catálogo alimentado por Firestore e painel administrativo próprio para a cliente cadastrar produtos e subir fotos sem depender de mim.
+Loja completa para uma marca 100% online, com domínio próprio. Carrinho com reserva de estoque server-side (transação no Firestore evita vender a mesma peça duas vezes), checkout convidado com PIX e frete calculado por CEP.
 
-`Next.js 16` `Painel admin` `Catálogo dinâmico`
+`PIX na Asaas` `Frete SuperFrete` `Dashboard`
 
-Identidade em preto e branco, pedido por WhatsApp com mensagem pronta por produto, deploy contínuo na Vercel.
+Pedido pago dispara e-mail para a loja via Resend. Login de cliente (e-mail/senha e Google) e painel admin em rota oculta, com dashboard de vendas, controle de estoque e gestão de pedidos.
 
-<sub>Next.js · React 19 · TypeScript · Tailwind CSS 4 · Firebase</sub>
+<sub>Next.js · TypeScript · Firebase · Asaas · SuperFrete · Vercel</sub>
 
 [**htglowfit.com**](https://htglowfit.com)
 
@@ -166,10 +166,13 @@ Templates de landing page prontos para publicar, em HTML + Tailwind via CDN, sem
 ![Vite](https://img.shields.io/badge/Vite-0a0a0a?style=flat-square&logo=vite&logoColor=22c55e)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS_4-0a0a0a?style=flat-square&logo=tailwindcss&logoColor=22c55e)
 ![Material UI](https://img.shields.io/badge/Material_UI-0a0a0a?style=flat-square&logo=mui&logoColor=22c55e)
+![Recharts](https://img.shields.io/badge/Recharts-0a0a0a?style=flat-square&logo=react&logoColor=22c55e)
 
 **Back-end e cloud**
 
 ![Firebase](https://img.shields.io/badge/Firebase-0a0a0a?style=flat-square&logo=firebase&logoColor=22c55e)
+![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-0a0a0a?style=flat-square&logo=firebase&logoColor=22c55e)
+![Firebase Admin](https://img.shields.io/badge/Firebase_Admin_SDK-0a0a0a?style=flat-square&logo=firebase&logoColor=22c55e)
 ![Cloud Functions](https://img.shields.io/badge/Cloud_Functions-0a0a0a?style=flat-square&logo=googlecloud&logoColor=22c55e)
 ![Node.js](https://img.shields.io/badge/Node.js_20-0a0a0a?style=flat-square&logo=nodedotjs&logoColor=22c55e)
 ![Firestore](https://img.shields.io/badge/Firestore-0a0a0a?style=flat-square&logo=firebase&logoColor=22c55e)
@@ -178,6 +181,9 @@ Templates de landing page prontos para publicar, em HTML + Tailwind via CDN, sem
 **Integrações**
 
 ![Stripe](https://img.shields.io/badge/Stripe-0a0a0a?style=flat-square&logo=stripe&logoColor=22c55e)
+![Asaas](https://img.shields.io/badge/Asaas_PIX-0a0a0a?style=flat-square&logo=pix&logoColor=22c55e)
+![SuperFrete](https://img.shields.io/badge/SuperFrete-0a0a0a?style=flat-square&logoColor=22c55e)
+![Resend](https://img.shields.io/badge/Resend-0a0a0a?style=flat-square&logo=resend&logoColor=22c55e)
 ![REST](https://img.shields.io/badge/REST_APIs-0a0a0a?style=flat-square&logo=fastapi&logoColor=22c55e)
 ![Webhooks](https://img.shields.io/badge/Webhooks-0a0a0a?style=flat-square&logo=webhooks&logoColor=22c55e)
 ![ERP](https://img.shields.io/badge/ERP_MK_Solutions-0a0a0a?style=flat-square&logo=databricks&logoColor=22c55e)
