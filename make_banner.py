@@ -72,8 +72,12 @@ d.text((x0 - 3 * S, 128 * S), "Ramony Menezes Lima", font=f_name, fill=INK)
 
 # --- linha de stack --------------------------------------------------------
 f_stack = ubuntu(21 * S, 400)
-d.text((x0, 210 * S), "React 19  ·  TypeScript  ·  Firebase  ·  Cloud Functions  ·  Node.js",
-       font=f_stack, fill=MUTED)
+STACK_LINE = "React  ·  TypeScript  ·  Supabase  ·  PostgreSQL  ·  Firebase"
+# A linha nao pode encostar no bloco de codigo (comeca em 830*S). Se encostar,
+# o banner sai com texto por baixo da caixa e ninguem percebe ate publicar.
+_w = d.textlength(STACK_LINE, font=f_stack)
+assert x0 + _w < 830 * S - 24 * S, f"linha de stack larga demais: {(x0+_w)/S:.0f}px"
+d.text((x0, 210 * S), STACK_LINE, font=f_stack, fill=MUTED)
 
 # --- rodapé ----------------------------------------------------------------
 f_foot = ImageFont.truetype(MONO, 14 * S)
@@ -97,7 +101,7 @@ f_code = ImageFont.truetype(MONO, 13 * S)
 lines = [
     [("const ", PRIMARY_SOFT), ("dev", INK), (" = {", MUTED)],
     [("  focus:  ", MUTED), ("'produto real'", (150, 200, 160))],
-    [("  stack:  ", MUTED), ("'React + Firebase'", (150, 200, 160))],
+    [("  stack:  ", MUTED), ("'React + Supabase'", (150, 200, 160))],
     [("  extra:  ", MUTED), ("'redes / GPON'", (150, 200, 160))],
     [("  ships:  ", MUTED), ("true", PRIMARY)],
     [("};", MUTED)],
