@@ -139,11 +139,83 @@ Detecção de palpites duplicados e tardios, card compartilhável gerado no nave
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### Elegancy NR Nails
+**Cliente real · nail designer em Uberlândia**
+
+Site e agenda online, com domínio próprio, para uma profissional que atende a domicílio e em espaço de atendimento. A cliente escolhe o cuidado, o local e um horário livre, calculado com o tempo de deslocamento entre um atendimento e outro.
+
+`Agenda sem login` `Push no celular` `Painel PWA`
+
+A reserva passa por uma função no servidor e uma restrição de exclusão no Postgres impede dois atendimentos no mesmo horário. Confirmação e lembretes por e-mail, notificações push para a profissional e painel pensado para o celular, com galeria do site editável.
+
+<sub>HTML · CSS · JavaScript · Supabase · PostgreSQL · Edge Functions · Resend · Web Push · Vercel</sub>
+
+[**elegancynrnails.com.br**](https://elegancynrnails.com.br) <sub>· código proprietário</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### Ludi
+**Arquivo de cosplay · 10 personagens**
+
+Site de exposição do arquivo pessoal de uma cosplayer, com 34 fotos curadas. A interface é uma ficha de personagem impressa, com réguas, molduras de canto e numeração à mostra, e a seção de elenco reinterpreta a tela de seleção de campeão do League of Legends.
+
+`Zero build` `View Transitions` `LCP 252 ms`
+
+Tema claro e escuro com a mesma dupla de cores de papéis trocados; a troca abre em círculo a partir do próprio botão. 770 KB na carga inicial.
+
+<sub>HTML · CSS · JavaScript · View Transitions · Vercel</sub>
+
+[**sailorlu.vercel.app**](https://sailorlu.vercel.app) <sub>· repositório privado</sub>
+
+</td>
+</tr>
 </table>
 
 <br />
 
 ## Em desenvolvimento
+
+### Lorrana Pinto
+Site com agendamento próprio para uma psicóloga que atende online e presencialmente no Pará. A direção visual parte da logo dela, uma peça de quebra-cabeça com coração: paleta creme, amarelo e terracota, grão de impressão antiga, o retrato que chega em quatro peças e se encaixa, um quebra-cabeça que o visitante monta e revela um recado, e dúvidas em que cada pergunta é uma peça que encaixa ao abrir.
+
+O motor de agenda, em **TypeScript puro com testes**, reserva horário sem cadastro e sem senha e respeita o Código de Ética do CFP e a LGPD desde o desenho.
+
+<sub>HTML · CSS · JavaScript · Next.js 16 · TypeScript · Firebase · Vercel</sub>
+
+[**lorranapintopsicologa.vercel.app**](https://lorranapintopsicologa.vercel.app) <sub>· prévia em aprovação com a cliente · repositório privado</sub>
+
+<br />
+
+### Studio Jê Cunha
+Landing page editorial para um studio de estética e micropigmentação em Marituba, PA, campeão nacional de micropigmentação em 2025. Tipografia serifada editorial, paleta porcelana com salmão e dourado, scroll suave com Lenis, galeria de resultados com arraste, vídeos que só tocam em vista e preview de imagem que segue o cursor na lista de serviços.
+
+<sub>HTML · CSS · JavaScript · Lenis</sub>
+
+[**jecunha.vercel.app**](https://jecunha.vercel.app) <sub>· em aprovação com a cliente</sub>
+
+<br />
+
+### Samyra Priscila
+Página de apresentação e hub de links para uma criadora de conteúdo de beleza com 1,4 milhão de seguidores somados no Instagram, TikTok e YouTube. Bodoni Moda com tamanho óptico travado, paleta porcelana com cacau e caramelo, galeria arrastável com vídeos que só tocam em vista e texto todo em primeira pessoa.
+
+<sub>HTML · CSS · JavaScript · Lenis · Vercel</sub>
+
+[**samyrapriscila.vercel.app**](https://samyrapriscila.vercel.app) <sub>· em aprovação com a cliente · repositório privado</sub>
+
+<br />
+
+### Sapiens Contabilidade
+Landing page para um escritório de contabilidade em Joinville, SC, focado em micro e pequenas empresas, com destaque para oficinas mecânicas. Cormorant Garamond e Jost, marinho e turquesa da marca, abertura em que a logo surge e a cortina sobe, seletor para a cliente comparar três versões da logo na página inteira, formulário de proposta com consentimento LGPD e SEO com dados estruturados.
+
+<sub>HTML · CSS · JavaScript · Lucide · Vercel</sub>
+
+[**sapiens-contabilidade.vercel.app**](https://sapiens-contabilidade.vercel.app) <sub>· em aprovação com a cliente · repositório privado</sub>
+
+<br />
 
 ### OSLine
 SaaS white-label para provedores regionais de internet, generalizando os conceitos operacionais do Gerador de O.S. (chamados, escala, chat interno) para atender vários provedores-clientes ao mesmo tempo.
