@@ -74,17 +74,17 @@ Checkout com dois gateways, crop de imagem no navegador, download do álbum em Z
 <td width="50%" valign="top">
 
 ### Gerador de O.S.
-**Plataforma operacional interna · v4.0.1**
+**Software autoral · desde dez. 2023 · v4.0.1**
 
-Sistema de Ordem de Serviço usado diariamente por toda a equipe de suporte técnico da MZ NET, em produção desde dezembro de 2023.
+Software de minha autoria para gestão de Ordens de Serviço em provedores de internet, criado e mantido por mim desde dezembro de 2023, em infraestrutura própria.
 
 `37 formulários` `170 variantes` `8 endpoints REST`
 
-Integração completa com o ERP MK Solutions: autenticação, busca de cliente por CPF/CNPJ, abertura de protocolo e criação de O.S. **Atendimento caiu de 10 a 15 minutos para menos de 2.**
+Integração com o ERP MK Solutions: autenticação, busca de cliente por CPF/CNPJ, abertura de protocolo e criação de O.S. Foi usado diariamente pelo suporte técnico de um provedor de fibra óptica, onde **o atendimento caiu de 10 a 15 minutos para menos de 2.**
 
 <sub>React 19 · TypeScript · Firebase · Cloud Functions · Secret Manager</sub>
 
-<sub>Sistema interno, repositório privado</sub>
+<sub>Software autoral · código e infraestrutura de minha titularidade, repositório privado</sub>
 
 </td>
 </tr>
