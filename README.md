@@ -38,6 +38,21 @@ O diferencial do produto é **emitir nota fiscal pelo WhatsApp**: o cliente desc
 
 <br />
 
+### JUBATRIM
+**Site institucional e loja online · Juventude Batista do Triângulo Mineiro**
+
+Site oficial de uma juventude batista com projetos missionários e congressos (agenda, galeria, temas visuais por evento e uma página de links da bio) e a loja dela, com painel administrativo para a equipe atualizar tudo sem mexer em código.
+
+`PIX na Asaas` `Next.js 16 · Cache Components` `Painel sem código`
+
+A loja tem galeria com zoom em alta resolução, checkout com PIX e webhook idempotente (o estorno cancela o pedido sozinho), retirada no evento ou Correios via SuperFrete, conta de cliente com Google ou e-mail e senha, avaliações só de quem comprou e acompanhamento de pedido sem login por código. E-mails transacionais com domínio próprio via Resend, suporte com resposta direta ao cliente e fotos de produto enviadas pelo painel, redimensionadas no navegador e guardadas no Vercel Blob.
+
+<sub>Next.js 16 · React 19 · TypeScript · Tailwind CSS 4 · Motion · Lenis · Firebase (Firestore, Auth, Admin SDK) · Vercel Blob · Asaas · SuperFrete · Resend · Zod · Python/Pillow · FFmpeg · Vercel</sub>
+
+[**jubatrim.com.br**](https://jubatrim.com.br) <sub>· repositório privado</sub>
+
+<br />
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -92,50 +107,18 @@ Pedido pago dispara e-mail para a loja via Resend. Login de cliente (e-mail/senh
 </td>
 <td width="50%" valign="top">
 
-### Belaroids
-**Landing page · fotografia instantânea**
+### Escala Memorial
+**Gestão de ministério de igreja · louvor e mídia**
 
-Estética de álbum de memórias artesanal: textura de papel, doodles desenhados à mão, polaroids com rotação aleatória, scroll reveal e parallax de mouse nos elementos decorativos.
+App do grupo de louvor e da equipe de mídia de uma igreja batista: o líder cadastra os cultos e monta a escala, e cada membro marca em quais dias pode servir e vê onde foi escalado. Pensado primeiro para o celular.
 
-`Zero build` `Scroll reveal` `Parallax`
+`3 papéis + RLS` `Lembretes por e-mail` `Imagem pro WhatsApp`
 
-<sub>HTML · Tailwind CSS · JavaScript</sub>
+Permissões por papel direto no Postgres (RLS), convites e contas em Edge Functions, lembretes diários agendados com pg_cron e enviados uma vez só via Resend, playlist do culto com arrastar e soltar e card da escala desenhado em canvas e compartilhado pela Web Share API.
 
-[**belaroids.vercel.app**](https://belaroids.vercel.app/) · [repositório](https://github.com/RamonyML/belaroids)
+<sub>React 19 · TypeScript · Vite · Tailwind CSS 4 · shadcn/ui · TanStack Query · Supabase (Postgres + RLS + Edge Functions) · pg_cron · Resend · Vitest · Vercel</sub>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Escala de Louvor
-**Gestão de ministério de igreja**
-
-Escala pública que sincroniza em tempo real via Firestore: o que o admin edita aparece na hora pra quem está com a página aberta, sem refresh.
-
-`Tempo real` `Export em imagem` `Auth + regras`
-
-Geração automática de cultos por domingo do mês, exportação da escala como imagem em dois formatos e componentes de UI construídos do zero, sem biblioteca pronta.
-
-<sub>React 19 · TypeScript · Vite · Firestore · Firebase Auth · html2canvas</sub>
-
-[**memorial-louvor.web.app**](https://memorial-louvor.web.app) · [repositório](https://github.com/RamonyML/memorial-louvor)
-
-</td>
-<td width="50%" valign="top">
-
-### Bolão MZ NET
-**Aplicação interna · Copa 2026**
-
-Bolão construído para os funcionários da MZ NET, com ranking em tempo real, pódio animado e pontuação por placar exato ou resultado.
-
-`Zero build` `Anti-fraude` `Painel admin`
-
-Detecção de palpites duplicados e tardios, card compartilhável gerado no navegador e álbum de figurinhas. Feito em JavaScript puro com ES Modules, sem framework.
-
-<sub>JavaScript · Firestore · Firebase Auth · html2canvas</sub>
-
-[repositório](https://github.com/RamonyML/bolao-mznet)
+[**memorial-escala.vercel.app**](https://memorial-escala.vercel.app) <sub>· repositório privado</sub>
 
 </td>
 </tr>
@@ -249,7 +232,7 @@ Templates de landing page prontos para publicar, em HTML + Tailwind via CDN, sem
 **Front-end**
 
 ![React](https://img.shields.io/badge/React_19-0a0a0a?style=flat-square&logo=react&logoColor=22c55e)
-![Next.js](https://img.shields.io/badge/Next.js-0a0a0a?style=flat-square&logo=nextdotjs&logoColor=22c55e)
+![Next.js](https://img.shields.io/badge/Next.js_16-0a0a0a?style=flat-square&logo=nextdotjs&logoColor=22c55e)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0a0a0a?style=flat-square&logo=typescript&logoColor=22c55e)
 ![JavaScript](https://img.shields.io/badge/JavaScript-0a0a0a?style=flat-square&logo=javascript&logoColor=22c55e)
 ![Vite](https://img.shields.io/badge/Vite-0a0a0a?style=flat-square&logo=vite&logoColor=22c55e)
@@ -259,6 +242,11 @@ Templates de landing page prontos para publicar, em HTML + Tailwind via CDN, sem
 ![TanStack Query](https://img.shields.io/badge/TanStack_Query-0a0a0a?style=flat-square&logo=reactquery&logoColor=22c55e)
 ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-0a0a0a?style=flat-square&logo=shadcnui&logoColor=22c55e)
 ![Radix UI](https://img.shields.io/badge/Radix_UI-0a0a0a?style=flat-square&logo=radixui&logoColor=22c55e)
+![Motion](https://img.shields.io/badge/Motion-0a0a0a?style=flat-square&logo=framer&logoColor=22c55e)
+![Lenis](https://img.shields.io/badge/Lenis-0a0a0a?style=flat-square&logoColor=22c55e)
+![Zod](https://img.shields.io/badge/Zod-0a0a0a?style=flat-square&logo=zod&logoColor=22c55e)
+![React Hook Form](https://img.shields.io/badge/React_Hook_Form-0a0a0a?style=flat-square&logo=reacthookform&logoColor=22c55e)
+![dnd-kit](https://img.shields.io/badge/dnd--kit-0a0a0a?style=flat-square&logoColor=22c55e)
 
 **Back-end e cloud**
 
@@ -274,6 +262,8 @@ Templates de landing page prontos para publicar, em HTML + Tailwind via CDN, sem
 ![RLS](https://img.shields.io/badge/Row_Level_Security-0a0a0a?style=flat-square&logo=postgresql&logoColor=22c55e)
 ![Deno](https://img.shields.io/badge/Deno-0a0a0a?style=flat-square&logo=deno&logoColor=22c55e)
 ![Edge Functions](https://img.shields.io/badge/Edge_Functions-0a0a0a?style=flat-square&logo=supabase&logoColor=22c55e)
+![pg_cron](https://img.shields.io/badge/pg__cron-0a0a0a?style=flat-square&logo=postgresql&logoColor=22c55e)
+![Vercel Blob](https://img.shields.io/badge/Vercel_Blob-0a0a0a?style=flat-square&logo=vercel&logoColor=22c55e)
 
 **Integrações**
 
@@ -288,6 +278,16 @@ Templates de landing page prontos para publicar, em HTML + Tailwind via CDN, sem
 ![Pluggy](https://img.shields.io/badge/Pluggy_Open_Finance-0a0a0a?style=flat-square&logoColor=22c55e)
 ![Evolution API](https://img.shields.io/badge/Evolution_API_%28WhatsApp%29-0a0a0a?style=flat-square&logo=whatsapp&logoColor=22c55e)
 ![Anthropic](https://img.shields.io/badge/Anthropic_API-0a0a0a?style=flat-square&logo=anthropic&logoColor=22c55e)
+![BrasilAPI](https://img.shields.io/badge/BrasilAPI-0a0a0a?style=flat-square&logoColor=22c55e)
+![Web Push](https://img.shields.io/badge/Web_Push-0a0a0a?style=flat-square&logo=googlechrome&logoColor=22c55e)
+
+**Qualidade e ferramentas**
+
+![Vitest](https://img.shields.io/badge/Vitest-0a0a0a?style=flat-square&logo=vitest&logoColor=22c55e)
+![Testing Library](https://img.shields.io/badge/Testing_Library-0a0a0a?style=flat-square&logo=testinglibrary&logoColor=22c55e)
+![Python + Pillow](https://img.shields.io/badge/Python_%2B_Pillow-0a0a0a?style=flat-square&logo=python&logoColor=22c55e)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-0a0a0a?style=flat-square&logo=ffmpeg&logoColor=22c55e)
+![Git](https://img.shields.io/badge/Git-0a0a0a?style=flat-square&logo=git&logoColor=22c55e)
 
 **Redes e infra**
 
