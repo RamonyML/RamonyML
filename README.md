@@ -74,15 +74,15 @@ Checkout com dois gateways, crop de imagem no navegador, download do álbum em Z
 <td width="50%" valign="top">
 
 ### Gerador de O.S.
-**Software autoral · desde dez. 2023 · v4.0.1**
+**CRM autoral para provedores · desde dez. 2023 · v4.0.1**
 
-Software de minha autoria para gestão de Ordens de Serviço em provedores de internet, criado e mantido por mim desde dezembro de 2023, em infraestrutura própria.
+CRM operacional de minha autoria, criado e mantido por mim em infraestrutura própria: hub de demandas do suporte, chamados internos estilo GLPI, escala de turnos, agenda de visitas técnicas, condomínios, upgrades e comissões, comunicados e gestão de usuários.
 
-`37 formulários` `170 variantes` `8 endpoints REST`
+`37 formulários` `170 variantes` `~70 mil linhas TS`
 
-Integração com o ERP MK Solutions: autenticação, busca de cliente por CPF/CNPJ, abertura de protocolo e criação de O.S. Foi usado diariamente pelo suporte técnico de um provedor de fibra óptica, onde **o atendimento caiu de 10 a 15 minutos para menos de 2.**
+Acesso em três camadas (rotas, regras do Firestore e Cloud Functions) por setor, hierarquia e papéis. Uma Cloud Function orquestra a integração com o ERP MK Solutions por 8 endpoints REST: abre o protocolo, insere os comentários e cria a O.S., com credenciais no Secret Manager. Usado diariamente no suporte de um provedor de fibra, **levou o atendimento de 10 a 15 minutos para menos de 2.**
 
-<sub>React 19 · TypeScript · Firebase · Cloud Functions · Secret Manager</sub>
+<sub>React 19 · TypeScript · Vite · Material UI · Firebase · Cloud Functions · Secret Manager · Vitest</sub>
 
 <sub>Software autoral · código e infraestrutura de minha titularidade, repositório privado</sub>
 
