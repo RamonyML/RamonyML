@@ -9,7 +9,7 @@
 
 ---
 
-Desenvolvedor full-stack com produtos rodando em produção de verdade, não só em portfólio. Hoje trabalho em um ERP fiscal-financeiro multi-tenant que emite nota fiscal para empresas em dezenas de municípios brasileiros — NFS-e, NF-e e CT-e, cada prefeitura com seu próprio padrão e suas próprias regras de rejeição. Antes disso construí sozinho, do zero, uma plataforma operacional usada todo dia pelo suporte técnico de um provedor de fibra óptica, integrada por API ao ERP da operação, e um SaaS com checkout próprio e assinaturas ativas.
+Desenvolvedor full-stack com produtos rodando em produção de verdade, não só em portfólio. Hoje trabalho em um ERP fiscal-financeiro multi-tenant que emite nota fiscal para empresas em dezenas de municípios brasileiros — NFS-e, NF-e e CT-e, cada prefeitura com seu próprio padrão e suas próprias regras de rejeição. Também sou o desenvolvedor principal da **FISCO API**, um motor próprio de emissão fiscal que fala direto com a Receita, as SEFAZ e as prefeituras: NFS-e, NF-e, CT-e e MDF-e, com cada documento conferido no leiaute oficial e em centenas de regras de rejeição antes do envio. Antes disso construí sozinho, do zero, uma plataforma operacional usada todo dia pelo suporte técnico de um provedor de fibra óptica, integrada por API ao ERP da operação, e um SaaS com checkout próprio e assinaturas ativas.
 
 Antes de migrar pra desenvolvimento, passei alguns anos em infraestrutura de redes (GPON/XPON, monitoramento via Zabbix). Isso me dá um domínio técnico pouco comum em projetos que encostam em telecom e provedores. Minha formação em Análise e Desenvolvimento de Sistemas tem ênfase em engenharia de software e documentação técnica: gosto de deixar cada decisão registrada o suficiente pra outra pessoa dar manutenção sem sofrer.
 
@@ -304,6 +304,7 @@ Templates de landing page prontos para publicar, em HTML + Tailwind via CDN, sem
 ago/2026 — atual   Desenvolvedor Full-Stack
                    DEVIA · Serviços e Desenvolvimento Tecnológico
                    Handzo (Hands Business) — ERP fiscal-financeiro
+                   FISCO API — desenvolvedor principal da API própria de emissão fiscal (desde out/2026)
 
 2023 — 2026        Suporte Técnico N3 · Desenvolvedor Full-Stack
                    MZ NET Fibra Óptica, Uberlândia/MG
