@@ -169,7 +169,7 @@ O motor de agenda, em **TypeScript puro com testes**, reserva horário sem cadas
 
 <sub>HTML · CSS · JavaScript · Next.js 16 · TypeScript · Firebase · Vercel</sub>
 
-[**lorranapintopsicologa.vercel.app**](https://lorranapintopsicologa.vercel.app) <sub>· prévia em aprovação com a cliente · repositório privado</sub>
+<sub>Prévia fora do ar, aguardando a decisão da cliente · repositório privado</sub>
 
 <br />
 
